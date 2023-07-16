@@ -13,10 +13,10 @@ const Nav = () => {
 
   useEffect(() => {
     (async () => {
-      const res = await getProviders();
-      setProviders(res);
-      console.log(providers);
+      const response = await getProviders();
+      setProviders(response);
     })();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
