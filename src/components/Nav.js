@@ -66,7 +66,7 @@ const Nav = () => {
                   }}
                   className="black_btn"
                 >
-                  Sign in
+                  Sign in with {provider.name}
                 </button>
               ))}
           </>
@@ -127,7 +127,7 @@ const Nav = () => {
                   }}
                   className="black_btn"
                 >
-                  Sign in
+                  Sign in with {provider.name}
                 </button>
               ))}
           </>
