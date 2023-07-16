@@ -15,9 +15,7 @@ const Nav = () => {
     (async () => {
       const res = await getProviders();
       setProviders(res);
-      console.log(providers);
     })();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
@@ -67,7 +65,7 @@ const Nav = () => {
                   }}
                   className="black_btn"
                 >
-                  Sign in with {provider.name}
+                  Sign in
                 </button>
               ))}
           </>
